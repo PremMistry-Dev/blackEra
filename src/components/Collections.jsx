@@ -15,7 +15,7 @@ export default function Collections({ onSelectItem }) {
       tag: 'Best Seller',
       fabric: 'Stretch Premium Denim',
       fit: 'Slim / Tapered Fit',
-      image: '/images/jeans.png',
+      image: `${import.meta.env.BASE_URL}images/jeans.png`,
       description: 'Crafted with premium stretch denim fabric for all-day comfort and effortless movement. Signature dark wash finish.',
       features: ['Durable Double Stitching', 'Breathable Fabric Blend', 'Available in sizes 28 to 38']
     },
@@ -26,7 +26,7 @@ export default function Collections({ onSelectItem }) {
       tag: 'Customer Favorite',
       fabric: '100% Cotton Heavy Denim',
       fit: 'Regular Straight Fit',
-      image: '/images/jeans.png',
+      image: `${import.meta.env.BASE_URL}images/jeans.png`,
       description: 'The quintessential classic indigo blue denim with deep color retention and reinforced pocket linings.',
       features: ['Fade Resistant Wash', 'Heavyweight Comfort', 'Authentic Brand Leather Patch']
     },
@@ -37,7 +37,7 @@ export default function Collections({ onSelectItem }) {
       tag: 'Summer Special',
       fabric: 'Natural Linen & Cotton',
       fit: 'Sharp Tailored Fit',
-      image: '/images/shirts.png',
+      image: `${import.meta.env.BASE_URL}images/shirts.png`,
       description: 'Lightweight, ultra-breathable casual button-down shirt ideal for Vasai weather. Pairs perfectly with brand jeans.',
       features: ['Anti-Warp Collar', 'Breathable Weave', 'Pre-washed Soft Touch']
     },
@@ -48,7 +48,7 @@ export default function Collections({ onSelectItem }) {
       tag: 'New Arrival',
       fabric: 'Premium Oxford Cotton',
       fit: 'Modern Slim Fit',
-      image: '/images/shirts.png',
+      image: `${import.meta.env.BASE_URL}images/shirts.png`,
       description: 'Sophisticated charcoal casual shirt crafted for evening outings, casual Fridays, and royal confidence.',
       features: ['Wrinkle Resistant Finish', 'Pearl Button Details', 'Precision Tailoring']
     },
@@ -59,7 +59,7 @@ export default function Collections({ onSelectItem }) {
       tag: 'Streetwear Trend',
       fabric: '240 GSM Combed Cotton',
       fit: 'Relaxed Oversized Fit',
-      image: '/images/tees.png',
+      image: `${import.meta.env.BASE_URL}images/tees.png`,
       description: 'High-density premium combed cotton oversized t-shirt designed for maximum comfort and sharp urban aesthetic.',
       features: ['240 GSM Heavy Fabric', 'Ribbed Crew Collar', 'Zero Shrinkage Guaranteed']
     },
@@ -70,7 +70,7 @@ export default function Collections({ onSelectItem }) {
       tag: 'Limited Edition',
       fabric: 'Raw Denim & Cotton',
       fit: 'Classic Tailored Jacket',
-      image: '/images/hero.png',
+      image: `${import.meta.env.BASE_URL}images/hero.png`,
       description: 'Iconic dark washed denim jacket with metal button accents and interior stash pockets.',
       features: ['Reinforced Seams', 'Dual Chest Pockets', 'Versatile Layering Piece']
     }

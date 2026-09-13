@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: '/blackEra/',
   server: {
     port: 3000,
     open: true

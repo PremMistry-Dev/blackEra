@@ -62,7 +62,7 @@ export default function Hero({ onExploreClick }) {
           >
             <div className="relative mx-auto max-w-md lg:max-w-none group rounded-3xl overflow-hidden border border-white/10 bg-[#111111] shadow-2xl">
               <img
-                src="/images/hero.png"
+                src={`${import.meta.env.BASE_URL}images/hero.png`}
                 alt="Black Era Crafted For King's Store Showcase"
                 className="w-full max-w-full h-[460px] lg:h-[500px] object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
               />
