@@ -4,11 +4,11 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/blackEra/',
   plugins: [
     react(),
     tailwindcss()
   ],
-  base: '/blackEra/',
   server: {
     port: 3000,
     open: true
